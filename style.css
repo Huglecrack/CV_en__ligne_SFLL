@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;500&display=swap');
+
+body {
+    width: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    display: flex;   
+    flex-direction: column;       
+    width: 847px;
+    height: 220px;
+    background-color: rgb(60, 60, 170);
+    border-right: 3px solid black;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif; 
+}
+
+header h1 {
+    font-size: 45px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;              
+    width: 847px;
+    height: 80px;
+    background-color: rgb(30, 30, 30);
+    border-right: 3px solid black;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+section a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+section  a #milieu  {
+    margin-right: 3.5em;
+}
+
+section a:hover {
+    cursor: pointer;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+aside {
+    font-family: 'Lato', sans-serif; 
+    width: 330px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(60, 60, 170);
+}
+
+aside h2 {
+    background-color: rgb(30, 30, 30);
+    color: aliceblue;
+    margin-right: 20px;
+    font-size: 27px;
+    padding: 5px 15px;
+}
+
+aside h3 {
+    text-indent: 25px;
+    margin-left: 30px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+aside ul li {
+    font-family: 'Lato', sans-serif; 
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    width: 517px;
+    height: 580px;
+    background-color: aliceblue;
+    border-right: 3px solid black;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif; 
+}
+
+main article h2 {
+    font-size: 22px;
+    background-color: rgb(110, 110, 170);
+    margin: 25px 20px;
+    padding-left: 10px;
+    color: aliceblue;
+    border-left: 5px solid rgb(60, 60, 170);
+}
+
+main article h2:hover {
+    cursor: pointer;
+    background-color: rgb(60, 60, 170);
+}
+
+main article h3 {
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+main article h3 strong {
+    margin-left: 15px;
+}
+
+main article ul li {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
+}
+
+footer {
+    display: flex;
+    width: 847px;
+    height: 110px;
+    background-color: rgb(60, 60, 170);
+    border-right: 3px solid black;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer div a img {
+    display: flex;
+    margin: 15px 30px 5px;
+    height: 50px;
+    width: 50px;
+}
+
+footer div a img:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
+
+footer p {
+    font-size: 15px;
+    font-family: 'Leto', sans-serif;  
+    color: aliceblue;
+}
